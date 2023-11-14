@@ -134,7 +134,7 @@ class Login(object):
         }
         reqpin = requests.post(self.base_url + logemail , params=params1).json()
         if reqpin['status'] == 200:
-            if reqpin['result']['authToken']:
+            if 'authToken' in reqpin['result']:
                 dsuccss = 'LINE Login successffully\n'
                 authToken = reqpin['result']['authToken']
                 certificate = reqpin['result']['cert']

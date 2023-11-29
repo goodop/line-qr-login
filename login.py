@@ -91,7 +91,7 @@ class Login(object):
         gettoken = '/api/tokenV2'
 
         if appname is None:
-            appname = 'DESKTOPWIN\t8.4.1.3186\tWindows\t10.0' #becarefull when you set your appname
+            appname = 'DESKTOPWIN\t8.4.1\tWindows\t10.0' #becarefull when you set your appname
 
         if sysname is None:
             sysname = 'Asking'

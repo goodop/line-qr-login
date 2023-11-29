@@ -9,7 +9,7 @@ class Login(object):
         self.e2eeloc = '../execross/execbase/e2eekeys'
         self.tokloc = '../execross/execbase/token'
         self.base_url = 'https://gate.execross.pw'
-        self.apikey = 'execmans' #You can put justgood password here
+        self.apikey = 'execmans' #You can put justgood / apikey here
 
 
     def login(self, appname=None, sysname=None, cert=None, proxy=None):

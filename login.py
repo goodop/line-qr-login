@@ -8,7 +8,7 @@ class Login(object):
         self.server = Server()
         self.e2eeloc = '../execross/execbase/e2eekeys'
         self.tokloc = '../execross/execbase/token'
-        self.base_url = 'https://gate.execross.pw'
+        self.base_url = 'https://gate.execross.com'
         self.apikey = 'execmans' #You can put justgood / apikey here
 
 

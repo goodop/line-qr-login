@@ -5,3 +5,6 @@ Introducing a secondary login for temporary access via QR code. For those encoun
 If you have any questions or need assistance with our services, please feel free to reach out via 
 [WhatsApp](https://wa.me/1234567890?text=Hi%20there!%20I%20have%20a%20question%20about%20your%20service.%20Is%20it%20available%20now%3F).
 
+NOTE:
+Move to [here](https://github.com/goodop/exapi).
+
